@@ -1,0 +1,179 @@
+﻿<html>
+<head>
+    <link rel="stylesheet" href="../Button3.css">
+	<title> Game Caro </title>
+	<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBGNks_XmN7lb7dYPG7QZnCr1G1FWgWB_aWbWj2tZ7sPtKl7n">
+    <script src="Waytoplay.js"></script>
+
+<script>
+	
+</script>
+
+</head>
+
+<body>
+    
+     <div class="containter" >
+    	<div class="thehold"><a href="../game.html"> Back Main Page </a></div>
+     </div>
+    
+    
+	<audio autoplay="autoplay" id="soundmain"  >
+	    <source src="main.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="soundwon" >
+    	<source src="x.mp3" type="audio/mpeg">
+	</audio>
+        
+     
+		<img class="background"   src="main.png" > 
+ 			<div id="index1"> 
+                <img class="panel"  id="panelxxx" src="main.png" >  
+                <img class="panel" id="start" style="left:50.9%;top:55%;height:55%;;cursor:pointer;border-radius:50%;" src="icon3.png" onClick="trans()" >  
+                <h3 id="text" >Let's Do It Bro!!!</h3>
+                <h3 id="text1"></h3>
+            </div>
+            
+            
+    
+    <div>        
+  
+    	<div id="control" style="opacity:0;">
+    		<img class="x"  style="z-index:2;" onClick="danhvanmoi()" src="cholai.jpg"> 
+            <p    class="x"  id="x1" > Ván<br>mới  <br></p>
+    		<img class="x1"  style="z-index:2;" onClick="danhlai()" src="resest.jpg"> 
+            <p    class="x1"  id="x2">Chơi<br/>lại <br></p>
+            <img class="x2"  style="z-index:2;" onClick="outgame()" src="thoat.jpg"> 
+            <p    class="x2"  id="x3"> Thoát <br></p>  
+            <img class="x3" id="sound" style="z-index:2;"  src="loa.jpg" onClick="sound()"> 
+            <p    class="x3"  id="x4"> Music <br></p>                 
+       	</div>
+      
+	<img id="banco1" style="height:66%;opacity:0;" src="banco.jpg">
+	<table id="banco2" style="opacity:0;" border="1" cellpadding="0" cellspacing="0"  >
+    	<tr>
+        	<td > <button onClick="danh('00')"> <img class="danhvanmoi"  id="00"/> </button></td>
+            <td > <button onClick="danh('01')"> <img class="danhvanmoi"  id="01"/> </button></td>
+            <td > <button onClick="danh('02')"> <img class="danhvanmoi"  id="02"/> </button></td>
+            <td > <button onClick="danh('03')"> <img class="danhvanmoi"  id="03"/> </button></td>
+            <td > <button onClick="danh('04')"> <img class="danhvanmoi"  id="04"/> </button></td>
+            <td > <button onClick="danh('05')"> <img class="danhvanmoi"  id="05"/> </button></td>
+            <td > <button onClick="danh('06')"> <img class="danhvanmoi"  id="06"/> </button></td>
+            <td > <button onClick="danh('07')"> <img class="danhvanmoi"  id="07"/> </button></td>
+            <td > <button onClick="danh('08')"> <img class="danhvanmoi"  id="08"/> </button></td>
+            <td > <button onClick="danh('09')"> <img class="danhvanmoi"  id="09"/> </button></td>
+        </tr>
+        <tr>
+        	<td > <button onClick="danh('10')"> <img class="danhvanmoi"  id="10"/> </button></td>
+            <td > <button onClick="danh('11')"> <img class="danhvanmoi"  id="11"/> </button></td>
+            <td > <button onClick="danh('12')"> <img class="danhvanmoi"  id="12"/> </button></td>
+            <td > <button onClick="danh('13')"> <img class="danhvanmoi"  id="13"/> </button></td>
+            <td > <button onClick="danh('14')"> <img class="danhvanmoi"  id="14"/> </button></td>
+            <td > <button onClick="danh('15')"> <img class="danhvanmoi"  id="15"/> </button></td>
+            <td > <button onClick="danh('16')"> <img class="danhvanmoi"  id="16"/> </button></td>
+            <td > <button onClick="danh('17')"> <img class="danhvanmoi"  id="17"/> </button></td>
+            <td > <button onClick="danh('18')"> <img class="danhvanmoi"  id="18"/> </button></td>
+            <td > <button onClick="danh('19')"> <img class="danhvanmoi"  id="19"/> </button></td>
+        </tr>
+        <tr>
+        	<td > <button onClick="danh('20')"> <img class="danhvanmoi"  id="20"/> </button></td>
+            <td > <button onClick="danh('21')"> <img class="danhvanmoi"  id="21"/> </button></td>
+            <td > <button onClick="danh('22')"> <img class="danhvanmoi"  id="22"/> </button></td>
+            <td > <button onClick="danh('23')"> <img class="danhvanmoi"  id="23"/> </button></td>
+            <td > <button onClick="danh('24')"> <img class="danhvanmoi"  id="24"/> </button></td>
+            <td > <button onClick="danh('25')"> <img class="danhvanmoi"  id="25"/> </button></td>
+            <td > <button onClick="danh('26')"> <img class="danhvanmoi"  id="26"/> </button></td>
+            <td > <button onClick="danh('27')"> <img class="danhvanmoi"  id="27"/> </button></td>
+            <td > <button onClick="danh('28')"> <img class="danhvanmoi"  id="28"/> </button></td>
+            <td > <button onClick="danh('29')"> <img class="danhvanmoi"  id="29"/> </button></td>
+        </tr>
+        <tr>
+        	<td > <button onClick="danh('30')"> <img class="danhvanmoi"  id="30"/> </button></td>
+            <td > <button onClick="danh('31')"> <img class="danhvanmoi"  id="31"/> </button></td>
+            <td > <button onClick="danh('32')"> <img class="danhvanmoi"  id="32"/> </button></td>
+            <td > <button onClick="danh('33')"> <img class="danhvanmoi"  id="33"/> </button></td>
+            <td > <button onClick="danh('34')"> <img class="danhvanmoi"  id="34"/> </button></td>
+            <td > <button onClick="danh('35')"> <img class="danhvanmoi"  id="35"/> </button></td>
+            <td > <button onClick="danh('36')"> <img class="danhvanmoi"  id="36"/> </button></td>
+            <td > <button onClick="danh('37')"> <img class="danhvanmoi"  id="37"/> </button></td>
+            <td > <button onClick="danh('38')"> <img class="danhvanmoi"  id="38"/> </button></td>
+            <td > <button onClick="danh('39')"> <img class="danhvanmoi"  id="39"/> </button></td>
+        </tr>
+        <tr>
+        	<td > <button onClick="danh('40')"> <img class="danhvanmoi"  id="40"/> </button></td>
+            <td > <button onClick="danh('41')"> <img class="danhvanmoi"  id="41"/> </button></td>
+            <td > <button onClick="danh('42')"> <img class="danhvanmoi"  id="42"/> </button></td>
+            <td > <button onClick="danh('43')"> <img class="danhvanmoi"  id="43"/> </button></td>
+            <td > <button onClick="danh('44')"> <img class="danhvanmoi"  id="44"/> </button></td>
+            <td > <button onClick="danh('45')"> <img class="danhvanmoi"  id="45"/> </button></td>
+            <td > <button onClick="danh('46')"> <img class="danhvanmoi"  id="46"/> </button></td>
+            <td > <button onClick="danh('47')"> <img class="danhvanmoi"  id="47"/> </button></td>
+            <td > <button onClick="danh('48')"> <img class="danhvanmoi"  id="48"/> </button></td>
+            <td > <button onClick="danh('49')"> <img class="danhvanmoi"  id="49"/> </button></td>
+        </tr>
+        <tr>
+        	<td > <button onClick="danh('50')"> <img class="danhvanmoi"  id="50"/> </button></td>
+            <td > <button onClick="danh('51')"> <img class="danhvanmoi"  id="51"/> </button></td>
+            <td > <button onClick="danh('52')"> <img class="danhvanmoi"  id="52"/> </button></td>
+            <td > <button onClick="danh('53')"> <img class="danhvanmoi"  id="53"/> </button></td>
+            <td > <button onClick="danh('54')"> <img class="danhvanmoi"  id="54"/> </button></td>
+            <td > <button onClick="danh('55')"> <img class="danhvanmoi"  id="55"/> </button></td>
+            <td > <button onClick="danh('56')"> <img class="danhvanmoi"  id="56"/> </button></td>
+            <td > <button onClick="danh('57')"> <img class="danhvanmoi"  id="57"/> </button></td>
+            <td > <button onClick="danh('58')"> <img class="danhvanmoi"  id="58"/> </button></td>
+            <td > <button onClick="danh('59')"> <img class="danhvanmoi"  id="59"/> </button></td>
+        </tr>
+        <tr>
+        	<td > <button onClick="danh('60')"> <img class="danhvanmoi"  id="60"/> </button></td>
+            <td > <button onClick="danh('61')"> <img class="danhvanmoi"  id="61"/> </button></td>
+            <td > <button onClick="danh('62')"> <img class="danhvanmoi"  id="62"/> </button></td>
+            <td > <button onClick="danh('63')"> <img class="danhvanmoi"  id="63"/> </button></td>
+            <td > <button onClick="danh('64')"> <img class="danhvanmoi"  id="64"/> </button></td>
+            <td > <button onClick="danh('65')"> <img class="danhvanmoi"  id="65"/> </button></td>
+            <td > <button onClick="danh('66')"> <img class="danhvanmoi"  id="66"/> </button></td>
+            <td > <button onClick="danh('67')"> <img class="danhvanmoi"  id="67"/> </button></td>
+            <td > <button onClick="danh('68')"> <img class="danhvanmoi"  id="68"/> </button></td>
+            <td > <button onClick="danh('69')"> <img class="danhvanmoi"  id="69"/> </button></td>
+        </tr>
+        <tr>
+        	<td > <button onClick="danh('70')"> <img class="danhvanmoi"  id="70"/> </button></td>
+            <td > <button onClick="danh('71')"> <img class="danhvanmoi"  id="71"/> </button></td>
+            <td > <button onClick="danh('72')"> <img class="danhvanmoi"  id="72"/> </button></td>
+            <td > <button onClick="danh('73')"> <img class="danhvanmoi"  id="73"/> </button></td>
+            <td > <button onClick="danh('74')"> <img class="danhvanmoi"  id="74"/> </button></td>
+            <td > <button onClick="danh('75')"> <img class="danhvanmoi"  id="75"/> </button></td>
+            <td > <button onClick="danh('76')"> <img class="danhvanmoi"  id="76"/> </button></td>
+            <td > <button onClick="danh('77')"> <img class="danhvanmoi"  id="77"/> </button></td>
+            <td > <button onClick="danh('78')"> <img class="danhvanmoi"  id="78"/> </button></td>
+            <td > <button onClick="danh('79')"> <img class="danhvanmoi"  id="79"/> </button></td>
+        </tr>
+        <tr>
+        	<td > <button onClick="danh('80')"> <img class="danhvanmoi"  id="80"/> </button></td>
+            <td > <button onClick="danh('81')"> <img class="danhvanmoi"  id="81"/> </button></td>
+            <td > <button onClick="danh('82')"> <img class="danhvanmoi"  id="82"/> </button></td>
+            <td > <button onClick="danh('83')"> <img class="danhvanmoi"  id="83"/> </button></td>
+            <td > <button onClick="danh('84')"> <img class="danhvanmoi"  id="84"/> </button></td>
+            <td > <button onClick="danh('85')"> <img class="danhvanmoi"  id="85"/> </button></td>
+            <td > <button onClick="danh('86')"> <img class="danhvanmoi"  id="86"/> </button></td>
+            <td > <button onClick="danh('87')"> <img class="danhvanmoi"  id="87"/> </button></td>
+            <td > <button onClick="danh('88')"> <img class="danhvanmoi"  id="88"/> </button></td>
+            <td > <button onClick="danh('89')"> <img class="danhvanmoi"  id="89"/> </button></td>
+        </tr>
+        <tr>
+        	<td > <button onClick="danh('90')"> <img class="danhvanmoi"  id="90"/> </button></td>
+            <td > <button onClick="danh('91')"> <img class="danhvanmoi"  id="91"/> </button></td>
+            <td > <button onClick="danh('92')"> <img class="danhvanmoi"  id="92"/> </button></td>
+            <td > <button onClick="danh('93')"> <img class="danhvanmoi"  id="93"/> </button></td>
+            <td > <button onClick="danh('94')"> <img class="danhvanmoi"  id="94"/> </button></td>
+            <td > <button onClick="danh('95')"> <img class="danhvanmoi"  id="95"/> </button></td>
+            <td > <button onClick="danh('96')"> <img class="danhvanmoi"  id="96"/> </button></td>
+            <td > <button onClick="danh('97')"> <img class="danhvanmoi"  id="97"/> </button></td>
+            <td > <button onClick="danh('98')"> <img class="danhvanmoi"  id="98"/> </button></td>
+            <td > <button onClick="danh('99')"> <img class="danhvanmoi"  id="99"/> </button></td>
+        </tr>
+    </table>
+    </div>
+  
+</body>
+</html>
